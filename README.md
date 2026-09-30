@@ -2,7 +2,7 @@
 
 Independent introduction site for [toreleon/mainframe-env](https://github.com/toreleon/mainframe-env).
 
-Live site: https://toreleon.github.io/mainframe-env.github.io/
+Live site: https://toreleon.github.io/mainframe-env/
 
 Source repository: https://github.com/toreleon/mainframe-env.github.io
 
@@ -13,9 +13,15 @@ The site uses plain HTML, CSS, and JavaScript. No build or package installation 
 
 ## Publishing
 
-GitHub Pages publishes the `main` branch root. Push changes to `main` to update the
-site, then confirm the Pages deployment succeeds. `.nojekyll` disables Jekyll processing.
+The primary site is hosted from the `mainframe-env/` directory on the `main`
+branch of [toreleon/toreleon.github.io](https://github.com/toreleon/toreleon.github.io).
+Copy `index.html`, `styles.css`, `script.js`, and `assets/` from this source
+repository into that directory to publish updates, then confirm the Pages
+deployment succeeds. Preserve the hosting repository's other content.
 All asset paths are relative so both organization and project Pages URLs work.
+
+The original repository-root Pages address remains available; its canonical
+metadata points to the primary site above.
 
 ## Content authority
 
