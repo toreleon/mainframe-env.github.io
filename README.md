@@ -2,6 +2,10 @@
 
 Independent introduction site for [toreleon/mainframe-env](https://github.com/toreleon/mainframe-env).
 
+Live site: https://toreleon.github.io/mainframe-env.github.io/
+
+Source repository: https://github.com/toreleon/mainframe-env.github.io
+
 ## Preview
 
 Run `python3 -m http.server 4173` in this checkout and open `http://localhost:4173`.
@@ -9,7 +13,8 @@ The site uses plain HTML, CSS, and JavaScript. No build or package installation 
 
 ## Publishing
 
-Publish the `main` branch root with GitHub Pages. `.nojekyll` disables Jekyll processing.
+GitHub Pages publishes the `main` branch root. Push changes to `main` to update the
+site, then confirm the Pages deployment succeeds. `.nojekyll` disables Jekyll processing.
 All asset paths are relative so both organization and project Pages URLs work.
 
 ## Content authority
